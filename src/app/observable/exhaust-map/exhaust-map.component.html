@@ -1,0 +1,26 @@
+<div class="my-3">
+    <h2>Exhust Map</h2>
+    <br>
+    <hr>
+    <div class="row">
+        <div class="col-md-4 mr-auto">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <button #btn class="btn btn-primary">Add</button>
+                </div> &nbsp;
+            </div>
+        </div>
+
+        <div class="col-md-4 ms-auto">
+            <strong>Ex 01</strong>
+            <hr>
+            <div *ngIf="fetching" class="spinner-border text-info" role="status"></div>
+            <p class="bg-light py-2 px-3 border rounded" >
+                
+                <strong>data : </strong> {{saveRequest}}
+            </p>
+            <br>
+            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<div class="my-3">
+    <h2>Replay & Subject</h2>
+    <br>
+</div>
+<div class="row">
+    <div class="col">
+        <h3>Add Video</h3>
+    </div>
+    
+</div>
+<hr>
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <input type="text" #video class="form-control">
+    </div>
+    <div class="col-md-4 mb-3">
+        <button (click)="onVideoAdd(video.value)" class="btn btn-primary">Add video</button>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <strong>Click to Complete</strong>
+        <hr>
+        <ul class="video" >
+            <li>
+                <strong>Video :</strong> {{asyncVideoEmit}} 
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <strong>Click to Complete</strong>
+        <hr>
+        
+        <button (click)="onComplete()" class="btn btn-success" >
+            Complete Subscription
+        </button>
+    </div>
+   
+</div>
+
+
+<hr>

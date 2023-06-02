@@ -1,0 +1,102 @@
+<!-- We can create observable by  various kind
+    -User Input(Button click Event)
+    -Http Request
+    -Array
+    -Object
+
+    observable Handles Data and Errors ,complition
+    .subcribe(
+        (data)=>console.log(data);
+        (error)=>console.log(error);
+        ()=>console.log(complete);
+
+    ) -->
+
+     <div class="container-fluid">
+        <h2 class="text text-center">Observable</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list"> 
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="from-event">From Event</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="interval">Interval</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="of-from">Of-From</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="toarray">toArray</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="custom">Custom Observable</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="map">Map</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="pluck">Pluck</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="filter">Filter</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="tap">Tap</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="retry">Retray, RetryEhen & </a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="debounce">Debouncetime & distictUntillChanged</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="subject">Subject & Subject Behavior</a>
+                </li> 
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="rsubject">Replay & Subject </a>
+                </li>
+                <li>
+             <a class="col-md-2 mx-2 row " routerLink="async-subject">Async Subject</a>
+                </li>
+                 <li>
+            <a class="col-md-2 mx-2 row " routerLink="concat">Concat</a>
+                 </li>
+                 <li>
+             <a class="col-md-2 mx-2 row " routerLink="merge">Merge</a>
+                </li>   
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="merge-map">Merge Map</a>
+                </li>  
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="concat-map">Concat Map</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="switch-map">Switch Map</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="switch-map2">Switch Map 2</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="exhaustMap">ExhaustMap</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="sharereplay">Share Replay</a>
+                </li>
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="combine">Combine Latest & WithLatestForm</a>
+                </li>            
+                <li>
+            <a class="col-md-2 mx-2 row " routerLink="zip">Zip & ForkJoin</a>
+                </li>
+                <!-- <li>
+            <a class="col-md-2 mx-2 row " routerLink="catch">catchError & throwError</a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <router-outlet ></router-outlet>
+    </div>
+  
